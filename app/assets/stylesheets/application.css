@@ -13,3 +13,29 @@
  *= require_tree .
  *= require_self
  */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  display: block;
+  margin: 10px 0 10px 10px;
+  font-size: 32px;
+  font-weight: bold;
+  
+}
+p {
+  margin: 33px;
+}
+
+p span {
+  font-weight: bold;
+}
+
+p .link_start {
+  color: #666;
+  cursor: pointer;
+}
