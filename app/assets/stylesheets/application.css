@@ -22,7 +22,6 @@
 
 h1 {
   display: block;
-  margin: 10px 0 10px 10px;
   font-size: 32px;
   font-weight: bold;
   
@@ -35,7 +34,64 @@ p span {
   font-weight: bold;
 }
 
-p .link_start {
-  color: #666;
+.link_start {
+  color: #333;
+}
+
+p .link_start:hover {
+  color: white;
   cursor: pointer;
+  background-color: black;
+  text-decoration: underline;
+}
+
+body {
+  display: block;
+  margin: 50px;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+
+.index_title {
+  margin: 30px 0 30px 0;
+}
+
+
+th {
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+td {
+  padding: 0 5px 5px 5px;
+}
+
+table {
+  margin-right: 50px;
+}
+
+h4 {
+  margin: 0;
+}
+
+.new_title {
+  margin-bottom: 20px;
+}
+
+.new_body {
+  margin-bottom: 20px;
+}
+
+.new_header {
+  margin: 30px 0;
+}
+
+.commonlink {
+  color: #333;
+}
+
+.commonlink:hover {
+  color: #fff;
+  background-color: #333;
 }
